@@ -10,7 +10,7 @@ void InitialisePlayer(Player* player, int x, int y, int width, int height, int p
 
 	player->baseObject.velocityX = 0;
 	player->baseObject.velocityY = 0;
-	player->baseObject.gravity = 1;
+	player->baseObject.gravity = 2;
 	player->grounded = 0;
 	player->isJumping = 0;
 	player->leftRight = 0;

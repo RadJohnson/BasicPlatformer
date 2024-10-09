@@ -11,7 +11,7 @@ void NewGame(Game* game)
 	game->windowWidth = 600;
 
 
-	InitialisePlayer(&game->player, 100, 100, 50, 70, 200, 500);
+	InitialisePlayer(&game->player, 100, 100, 50, 70, 200, 200);
 	//game->player.baseObject.gravity = 5;
 
 	InitialiseGameObject(&game->ground, 0, game->windowHeight - 250, game->windowWidth + 1000, 50);
@@ -32,7 +32,7 @@ int Initialise(Game* game, char* gameName)
 	}
 
 	// Create window
-	game->window = SDL_CreateWindow(gameName, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, game->windowHeight, game->windowWidth, SDL_WINDOW_SHOWN);
+	game->window = SDL_CreateWindow(gameName, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, game->windowHeight, game->windowWidth, SDL_WINDOW_SHOWN);//SDL_WINDOW_RESIZABLE
 	if (game->window == NULL)
 	{
 		printf("Window could not be created! SDL_Error: %s\n", SDL_GetError());
@@ -98,36 +98,28 @@ void Update(Game* game)
 	float deltaTime = deltaTimeMs / 1000.0f; // Convert to seconds
 	game->timeLastFrame = currentTime;
 
-	//printf("player.baseobject.velocityY %i\n",game->player.baseObject.velocityY);
-
 	game->player.baseObject.velocityX = game->player.playerSpeed * game->player.leftRight;
-
-
-	//printf("player.isjumping %i\n", game->player.isJumping);
-	if (game->player.isJumping == 1)//issue with jump being possible to do forever
+	
+	
+	if (game->player.isJumping == 1)
 	{
-		//printf("player.jumpvelocity %i\n", game->player.playerJumpVelocity);
 		game->player.grounded = 0;
-		game->player.baseObject.velocityY = game->player.playerJumpVelocity;
+		game->player.baseObject.velocityY -= game->player.playerJumpVelocity;
 		game->player.isJumping = 0;
-		printf("at end of jump Player.velocity Y %i\n", game->player.baseObject.velocityY);
 	}
-	if (game->player.baseObject.objectPositionY + game->player.baseObject.objectHeight / 2 <= game->ground.objectPositionY)
+	// Apply gravity
+	if (game->player.baseObject.objectPositionY + game->player.baseObject.objectHeight / 2 <= game->ground.objectPositionY - (game->ground.objectHeight/2))
 	{
-		game->player.baseObject.velocityY += game->player.baseObject.gravity * deltaTime;
-		game->player.grounded = 1;
-		game->player.baseObject.velocityY = 0;
-		game->player.baseObject.objectPositionY = game->ground.objectPositionY - game->player.baseObject.objectHeight;
-		game->player.isJumping = 0;
-		printf("if in air Player.velocity Y %i\n", game->player.baseObject.velocityY);
+		game->player.baseObject.velocityY += game->player.baseObject.gravity;
 	}
 	else
 	{
-		game->player.grounded = 0;
+		game->player.grounded = 1;
+		game->player.baseObject.velocityY = 0;
+		game->player.baseObject.objectPositionY = game->ground.objectPositionY - (game->ground.objectHeight/2) - game->player.baseObject.objectHeight/2;
+		game->player.isJumping = 0;
 	}
 
-
-	printf("at end of update Player.velocity Y %i\n", game->player.baseObject.velocityY);
 	game->player.update(&game->player, deltaTime);
 
 	game->ground.update(&game->ground, deltaTime);
