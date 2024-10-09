@@ -1,0 +1,10 @@
+﻿  Game.c
+D:\Programming Projects\BasicPlatformer\Game.c(29,3): warning C4013: 'printf' undefined; assuming extern returning int
+D:\Programming Projects\BasicPlatformer\Game.c(139,72): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+D:\Programming Projects\BasicPlatformer\Game.c(152,22): warning C4133: 'function': incompatible types - from 'Player *' to 'GameObject *'
+D:\Programming Projects\BasicPlatformer\Game.c(159,61): warning C4020: 'SDL_SetRenderDrawColor': too many actual parameters
+D:\Programming Projects\BasicPlatformer\Game.c(171,22): warning C4047: 'function': 'SDL_Renderer *' differs in levels of indirection from 'SDL_Renderer **'
+D:\Programming Projects\BasicPlatformer\Game.c(171,22): warning C4024: 'SDL_DestroyRenderer': different types for formal and actual parameter 1
+D:\Programming Projects\BasicPlatformer\Game.c(172,20): warning C4047: 'function': 'SDL_Window *' differs in levels of indirection from 'SDL_Window **'
+D:\Programming Projects\BasicPlatformer\Game.c(172,20): warning C4024: 'SDL_DestroyWindow': different types for formal and actual parameter 1
+  BasicPlatformer.vcxproj -> D:\Programming Projects\BasicPlatformer\x64\Debug\BasicPlatformer.exe

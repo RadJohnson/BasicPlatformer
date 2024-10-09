@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming Projects\\BasicPlatformer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|D:\\Programming Projects\\BasicPlatformer\\BasicPlatformer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|solutionrelative:BasicPlatformer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|D:\\Programming Projects\\BasicPlatformer\\Game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|solutionrelative:Game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|D:\\Programming Projects\\BasicPlatformer\\GameObject.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|solutionrelative:GameObject.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|D:\\Programming Projects\\BasicPlatformer\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|D:\\Programming Projects\\BasicPlatformer\\Player.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|solutionrelative:Player.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|D:\\Programming Projects\\BasicPlatformer\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|solutionrelative:GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|D:\\Programming Projects\\BasicPlatformer\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44F05355-B3CD-4F94-A554-D3F2ABAEE8DF}|BasicPlatformer.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.h",
+              "DocumentMoniker": "D:\\Programming Projects\\BasicPlatformer\\Player.h",
+              "RelativeDocumentMoniker": "Player.h",
+              "ToolTip": "D:\\Programming Projects\\BasicPlatformer\\Player.h",
+              "RelativeToolTip": "Player.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-09T00:23:37.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.c",
+              "DocumentMoniker": "D:\\Programming Projects\\BasicPlatformer\\Player.c",
+              "RelativeDocumentMoniker": "Player.c",
+              "ToolTip": "D:\\Programming Projects\\BasicPlatformer\\Player.c",
+              "RelativeToolTip": "Player.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAArwAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-09T00:22:06.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameObject.h",
+              "DocumentMoniker": "D:\\Programming Projects\\BasicPlatformer\\GameObject.h",
+              "RelativeDocumentMoniker": "GameObject.h",
+              "ToolTip": "D:\\Programming Projects\\BasicPlatformer\\GameObject.h",
+              "RelativeToolTip": "GameObject.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-08T20:55:32.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameObject.c",
+              "DocumentMoniker": "D:\\Programming Projects\\BasicPlatformer\\GameObject.c",
+              "RelativeDocumentMoniker": "GameObject.c",
+              "ToolTip": "D:\\Programming Projects\\BasicPlatformer\\GameObject.c",
+              "RelativeToolTip": "GameObject.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-08T20:55:31.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasicPlatformer.c",
+              "DocumentMoniker": "D:\\Programming Projects\\BasicPlatformer\\BasicPlatformer.c",
+              "RelativeDocumentMoniker": "BasicPlatformer.c",
+              "ToolTip": "D:\\Programming Projects\\BasicPlatformer\\BasicPlatformer.c",
+              "RelativeToolTip": "BasicPlatformer.c",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAJIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-07T10:31:47.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.h",
+              "DocumentMoniker": "D:\\Programming Projects\\BasicPlatformer\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "D:\\Programming Projects\\BasicPlatformer\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwB8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-08T18:28:57.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.c",
+              "DocumentMoniker": "D:\\Programming Projects\\BasicPlatformer\\Game.c",
+              "RelativeDocumentMoniker": "Game.c",
+              "ToolTip": "D:\\Programming Projects\\BasicPlatformer\\Game.c",
+              "RelativeToolTip": "Game.c",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAkwH4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-08T18:25:20.717Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
